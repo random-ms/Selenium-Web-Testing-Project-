@@ -1,0 +1,22 @@
+FRAMEPAGE
+
+//    //Another way of getting SmallBox using index
+//    private void switchToBox(){
+//        switchToFrameIndex(Integer.parseInt(INDEX));
+//    }
+//
+//    // Instead of driver.switchTo().frame(frameBoxSize); see, ln 22
+//    private void switchToBox(String frameBoxSize){
+//        switchToFrameString(frameBoxSize);
+//    }
+
+    // Combined - whether String or Int
+//    private void switchToBox(Object nameOrValue){
+//        if(nameOrValue instanceof String){
+//            switchToFrameString(nameOrValue.toString());
+//        } else if (nameOrValue instanceof By || nameOrValue instanceof WebElement){
+//            switchToFrameElement((WebElement)nameOrValue);
+//        } else {
+//            switchToFrameIndex((int)nameOrValue);
+//        }
+//    }
